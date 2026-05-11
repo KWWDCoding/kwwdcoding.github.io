@@ -536,6 +536,16 @@
       color: var(--text-muted);
     }
 
+.comparison-table { width: 100%; border-collapse: collapse; margin-top: 24px; }
+    .comparison-table th, .comparison-table td {
+      text-align: left; padding: 14px 16px; border-bottom: 1px solid var(--border);
+      font-size: .92rem;
+    }
+    .comparison-table th { font-weight: 600; background: #f0f0f1; }
+    .comparison-table td:last-child { text-align: left; }
+    .check { color: #00a32a; font-weight: 700; }
+    .cross { color: #d63638; }    
+
 /***** MOBILE *****/
     @media (max-width: 640px) {
       .hero {
